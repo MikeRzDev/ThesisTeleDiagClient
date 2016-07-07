@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Telediag</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="gender">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="stratification">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="family_type">
+        <item>Nuclear</item>
+        <item>Extensa</item>
+        <item>Reconstituida</item>
+        <item>Madre soltera</item>
+        <item>Persona</item>
+    </string-array>
+
+    <string-array name="document_type">
+        <item>Cedula de ciudadania</item>
+        <item>Tarjeta de identidad</item>
+        <item>Cedula de extrangeria</item>
+        <item>Pasaporte</item>
+        <item>Registro civil</item>
+        <item>Sin identificacion</item>
+    </string-array>
+
+    <string-array name="ethnic_group">
+        <item>No aplica</item>
+        <item>Indigena</item>
+        <item>Afrodescendiente</item>
+        <item>Desplazado</item>
+        <item>Gitano</item>
+    </string-array>
+
+
+    <string-array name="academic_level">
+        <item>No lee ni escribe</item>
+        <item>Sabe leer y escribir</item>
+        <item>Primaria</item>
+        <item>Bachillerato</item>
+        <item>Tecnico</item>
+        <item>Profesional</item>
+        <item>Estudios avanzados</item>
+    </string-array>
+
+
+    <string-array name="health_provider_private">
+        <item>Salucoop</item>
+        <item>Famisanar</item>
+        <item>Eps sura</item>
+        <item>Sanitas</item>
+    </string-array>
+
+    <string-array name="health_provider_public">
+        <item>Sisben nivel 1</item>
+        <item>Sisben nivel 2</item>
+        <item>Sisben nivel 3</item>
+        <item>Sisben nivel 4</item>
+        <item>Sisben nivel 5</item>
+        <item>Sisben nivel 6</item>
+    </string-array>
+
+    <string-array name="health_provider_empty">
+        <item>Selecciona un Regimen...</item>
+    </string-array>
+
+    <string-array name="health_provider_type">
+        <item>Contributivo</item>
+        <item>Subsidiado</item>
+    </string-array>
+
+    <string-array name="special_condition">
+        <item>No aplica</item>
+        <item>Discapacidad fisica</item>
+        <item>Discapacidad mental</item>
+        <item>Embarazo</item>
+    </string-array>
+    <string-array name="cronic_condition">
+        <item>No aplica</item>
+        <item>Cancer</item>
+        <item>SIDA</item>
+        <item>Hepatitis</item>
+        <item>Cirrosis</item>
+        <item>Enfermedad cardiovascular</item>
+        <item>Alzheimer</item>
+        <item>Parkinson</item>
+        <item>Enfermedad psiquatrica</item>
+        <item>Enfermedad mental</item>
+        <item>Asma</item>
+    </string-array>
+
+    <string-array name="family_relationship">
+        <item>Jefe de hogar</item>
+        <item>Conyuge</item>
+        <item>Hijo</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string name="person">Persona</string>
+    <string name="date">Fecha</string>
+    <string name="init_measure_hint">\t\tHaz \'click\' en\n\"Iniciar Medición\"</string>
+    <string name="time_in_test">Tiempo en Prueba</string>
+    <string name="remaining_time">Tiempo Restante</string>
+    <string name="init_measure">Iniciar Medición</string>
+
+    <string name="systolic_pressure">Presión Sistólica</string>
+    <string name="diastolic_pressure">Presión Diastólica</string>
+    <string name="read_tension_meter">Leer Tensiómetro</string>
+
+    <string name="temperature">Temperatura</string>
+
+    <string name="pulse">Pulso</string>
+    <string name="beats_per_minute">Pulsaciones por Minuto</string>
+    <string name="oxygen_concentration">Concentración de Oxígeno</string>
+    <string name="maximum">Máximo</string>
+    <string name="minimum">Mínimo</string>
+    <string name="average">Promedio</string>
+
+    <string name="names">Nombres</string>
+    <string name="names_hint">Primer y Segundo Nombre</string>
+    <string name="lastnames">Apellidos</string>
+    <string name="lastnames_hint">Primer y Segundo Apellido</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="email_hint">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Repetir contraseña</string>
+    <string name="address">Dirección</string>
+    <string name="address_hint">Dirección de Residencia</string>
+    <string name="telephone">Teléfono</string>
+    <string name="telephone_hint">Fijo ó Celular</string>
+    <string name="entity">Entidad</string>
+    <string name="entity_hint">Entidad de Salud</string>
+
+    <string name="about_of_info">
+        <b>Telediag</b> es la aplicación que almacena y transmite los datos recolectados por la arquitectura tecnológica planteada, para ayudar a los equipos de atención primaria en salud(APS) en zonas rurales de Santander. Esta arquitectura es planteada bajo el marco de proyecto de grado, para optar por el título de Ingeniero de Sistemas en la Universidad Autónoma de Bucaramanga UNAB.
+    </string>
+    <string name="developed_by">Desarrollado por:</string>
+    <string name="special_thanks">Agradecimientos especiales a:</string>
+
+    <string name="measurements">Mediciones</string>
+    <string name="ecg_time">Tiempo de Electrocardiograma</string>
+    <string name="exhalation_test_time">Tiempo de Prueba de Exhalación</string>
+    <string name="temperature_measure_time">Tiempo de Medición de Temperatura</string>
+    <string name="save_configuration">Guardar Configuración</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView_personMeasure_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/temp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Temperatura Corporal"
+        android:id="@+id/textView_personMeasure_type"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView_personMeasure_icon"
+        android:layout_toEndOf="@+id/imageView_personMeasure_icon"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11/09/2016 05:40 pm"
+        android:id="@+id/textView_personMeasure_date"
+        android:layout_below="@+id/textView_personMeasure_value"
+        android:layout_alignLeft="@+id/textView_personMeasure_type"
+        android:layout_alignStart="@+id/textView_personMeasure_type" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90 ppm | 90%"
+        android:id="@+id/textView_personMeasure_value"
+        android:layout_below="@+id/textView_personMeasure_type"
+        android:layout_alignLeft="@+id/textView_personMeasure_date"
+        android:layout_alignStart="@+id/textView_personMeasure_date"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>

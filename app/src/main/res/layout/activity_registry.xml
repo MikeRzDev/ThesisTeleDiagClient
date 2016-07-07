@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="logickus.co.miguelproj.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/names"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/text_userRegistry_names"
+            android:hint="@string/names_hint"
+            android:paddingTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lastnames"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/text_userRegistry_lastnames"
+            android:hint="@string/lastnames_hint"
+            android:paddingTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/email"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/text_userRegistry_email"
+            android:hint="@string/email_hint"
+            android:paddingTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/password"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/text_userRegistry_password"
+            android:hint="@string/password"
+            android:paddingTop="7dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/text_userRegistry_repeat_password"
+            android:hint="@string/repeat_password"
+            android:paddingTop="7dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/address"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/text_userRegistry_address"
+            android:hint="@string/address_hint"
+            android:paddingTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/telephone"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/text_userRegistry_telephone"
+            android:hint="@string/telephone_hint"
+            android:paddingTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/entity"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/text_userRegistry_entity"
+            android:hint="@string/entity_hint"
+            android:paddingTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:id="@+id/button_userRegistry_save"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</ScrollView>

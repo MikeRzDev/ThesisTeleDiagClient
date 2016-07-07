@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="logickus.co.miguelproj.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/text_acercade_main_info"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBasicText"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/about_of_info" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/developed_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBasicText"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Miguel Fernando Ruiz Bautista\nJavier Lagos Lopez"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBasicText"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Directora de Tesis:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBasicText"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Diana Teresa Parra Sanchez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBasicText"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView14" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/special_thanks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBasicText"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Myriam Ruiz Rodriguez\nBeatriz Leon Florez\nNelson Ivan Fernandez Suarez\nFelipe Jaimes\nJose Luis Bermudez\nMiguel Ortega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBasicText"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>
